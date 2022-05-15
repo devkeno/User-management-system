@@ -28,7 +28,7 @@
           "code": 3,
           "name": "Delete",
           "description": "Delete a file, or read the names of the files in a folder",
-          "isChecked": true
+          "isChecked": false
         },
         {
           "id": "c111cab3-a32e-4a43-3442-43534534543",

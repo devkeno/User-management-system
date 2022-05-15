@@ -1,7 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 export const initialValue = {
   id: uuidv4(),
-
   FirstName: "",
   LastName: "",
   Username: "",

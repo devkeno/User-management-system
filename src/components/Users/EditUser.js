@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { editData, getAllData } from "../../services/api";
 import { v4 as uuidv4 } from "uuid";
-import UserForm from "../Forms/UserForm";
+import { UserForm } from "../index";
 
 const EditUser = () => {
   const { id: idx } = useParams();

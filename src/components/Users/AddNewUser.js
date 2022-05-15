@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { addData } from "../../services/api";
-import { initialValue } from "../Forms/InitialValue";
-import UserForm from "../Forms/UserForm";
+import { initialValue, UserForm } from "../index";
 
 const AddNewUser = () => {
   const navigate = useNavigate();

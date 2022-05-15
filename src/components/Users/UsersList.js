@@ -1,7 +1,7 @@
 import { getAllData, deleteData } from "../../services/api";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import User from "./User";
+import { User } from "../index";
 
 const UsersList = () => {
   const navigate = useNavigate();

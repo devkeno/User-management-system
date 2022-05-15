@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Button } from "react-bootstrap";
-import Popup from "../Popup/Popup";
-import PaginationComponent from "../Pagination/PaginationComponent";
+import { PaginationComponent, Popup } from "../index";
 import { BsSortAlphaDown, BsSortAlphaUpAlt } from "react-icons/bs";
 
 const User = ({ users, assignPermissions, deleteUser, editUser }) => {

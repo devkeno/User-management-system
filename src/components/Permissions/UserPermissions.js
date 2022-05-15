@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { editData, getAllData } from "../../services/api";
 import { v4 as uuidv4 } from "uuid";
-import PermissonsForm from "../Forms/PermissionsForm";
-
+import { PermissonsForm } from '../index';
 const UserPermissions = () => {
   const { id: idx } = useParams();
   const navigate = useNavigate();
